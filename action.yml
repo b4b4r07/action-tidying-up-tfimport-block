@@ -1,0 +1,13 @@
+name: 'Tidying up teraform import block'
+description: ''
+inputs:
+  state:
+    description: 'state list'
+    required: true
+    default: ''
+outputs:
+  error:
+    description: 'error'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
